@@ -1,4 +1,4 @@
 FROM r-base
 WORKDIR /home
-COPY . /src
+COPY . /home/src
 EXPOSE 8080
