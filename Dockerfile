@@ -1,0 +1,4 @@
+FROM r-base
+WORKDIR /home
+COPY . /src
+EXPOSE 8080
