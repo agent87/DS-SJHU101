@@ -2,6 +2,8 @@
 FROM ubuntu:18.04
 WORKDIR /home
 COPY . /home/src
+CMD ["echo","Welcome to the Data science Specialisation course lab 1.2"]
+EXPOSE 6700
 
 #Install r-base console
 RUN apt-get update &&\
@@ -12,7 +14,3 @@ RUN apt-get update &&\
 RUN apt-get libssl-dev &&\
     apt-get install libcurl4-openssl-dev &&\  
     Rscript /home/src/install.r
-
-
-CMD ["echo","Welcome to the Data science Specialisation course lab 1.2"]
-EXPOSE 6700
