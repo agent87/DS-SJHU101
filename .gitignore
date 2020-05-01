@@ -3,4 +3,5 @@
 .RData
 .Ruserdata
 .csv
-/home/sangman/Desktop/source/DS-SJHU101/R-Programming/week2/specdata/*
+R-Programming/week2/specdata/*.csv
+R-Programming/week3/rprog_data_ProgAssignment3-data/Hospital_Revised_Flatfiles.pdf
