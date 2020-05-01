@@ -10,3 +10,12 @@ Make sure you are in the root directory
 Build the Image
 `docker build -t dss-img .`
 
+Run the container
+`docker run -it --name dss-lab dss-img`
+
+Stop the container after an instance
+`docker stop dss-lab`
+
+Start the container
+
+
