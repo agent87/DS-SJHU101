@@ -10,7 +10,7 @@ RUN apt-get update &&\
 
 #Install Swirl & Dependencies
 RUN apt-get libssl-dev &&\
-    apt-get install libcurl4-openssl-dev &&\
+    apt-get install libcurl4-openssl-dev &&\  
     Rscript /home/src/install.r
 
 
