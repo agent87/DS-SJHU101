@@ -11,7 +11,7 @@ RUN apt-get update &&\
 #Install Swirl & Dependencies
 RUN apt-get libssl-dev &&\
     apt-get install libcurl4-openssl-dev &&\
-    rscript install.r
+    Rscript install.r
 
 
 CMD ["echo","Welcome to the Data science Specialisation course lab"]
