@@ -10,7 +10,9 @@ Make sure you are in the root directory
 
 Build the Image
 `docker build -t dss-img .`
-Note: Please choose the US timezone when setting up r-base as other timezones freezez.
+Note: durint the install you will be prompted to choose your timezone\
+      as default choose US and type 1 and enter two times to skip the\
+      the configuration menu(There is bug)
 
 Run the container
 `docker run -it --name dss-lab dss-img`
