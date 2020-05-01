@@ -17,5 +17,5 @@ Stop the container after an instance
 `docker stop dss-lab`
 
 Start the container
-
+`docker start -ai dss-lab`
 
