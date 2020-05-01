@@ -1,2 +1,2 @@
 #Install the swirl package
-install.packages("swirl")
+install.packages(c("rlang","swirl"))
