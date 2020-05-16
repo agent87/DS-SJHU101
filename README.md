@@ -23,3 +23,5 @@ Stop the container after an instance
 Start the container
 `docker start -ai dss-lab`
 
+
+For more tutorial please visit coursera website
